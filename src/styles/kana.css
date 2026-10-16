@@ -1,0 +1,417 @@
+/* =========================================================
+   KANA PAGE
+========================================================= */
+
+.kana-page {
+    width: 100%;
+}
+
+.kana-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.kana-label {
+    display: inline-block;
+    color: #13aaa6;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.kana-header h1 {
+    margin-bottom: 6px;
+}
+
+.kana-header p {
+    margin: 0;
+}
+
+.kana-total {
+    min-width: 105px;
+    padding: 16px 20px;
+    border-radius: 14px;
+    background: #f0fbfa;
+    text-align: center;
+}
+
+.kana-total strong {
+    display: block;
+    color: #0da8a3;
+    font-size: 25px;
+}
+
+.kana-total span {
+    color: #667085;
+    font-size: 12px;
+}
+
+.kana-tabs {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 18px;
+}
+
+.kana-tabs button {
+    height: 42px;
+    padding: 0 20px;
+    border: 1px solid #dce5eb;
+    border-radius: 10px;
+    background: #ffffff;
+    color: #667085;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.kana-tabs button:hover {
+    border-color: #19c7c1;
+    color: #0da8a3;
+}
+
+.kana-tabs button.active {
+    background: #eafaf8;
+    border-color: #19c7c1;
+    color: #0da8a3;
+}
+
+.kana-toolbar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.kana-search {
+    height: 44px;
+    max-width: 500px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 0 14px;
+    background: #ffffff;
+    border: 1px solid #e1e8ef;
+    border-radius: 11px;
+}
+
+.kana-search input {
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #344054;
+    font-size: 13px;
+}
+
+.kana-count {
+    color: #667085;
+    font-size: 12px;
+}
+
+.kana-learning-card {
+    position: relative;
+    background: #ffffff;
+    border: 1px solid #e5ebf0;
+    border-radius: 20px;
+    padding: 35px;
+    box-shadow: 0 7px 25px rgba(30, 41, 59, 0.04);
+}
+
+.kana-counter {
+    position: absolute;
+    top: 25px;
+    right: 28px;
+    padding: 7px 12px;
+    background: #f1fbfa;
+    color: #0da8a3;
+    border-radius: 9px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.kana-main {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+    padding: 20px 10px 30px;
+}
+
+.kana-character {
+    width: 230px;
+    height: 230px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f5fbfb;
+    border: 1px solid #dff2f0;
+    border-radius: 25px;
+    font-family: "Noto Sans JP", Arial, sans-serif;
+    font-size: 145px;
+    font-weight: 500;
+    color: #172033;
+}
+
+.kana-info {
+    flex: 1;
+}
+
+.kana-type-label {
+    color: #13aaa6;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.kana-info h2 {
+    margin-top: 5px;
+    color: #172033;
+    font-family: "Noto Sans JP", Arial, sans-serif;
+    font-size: 30px;
+}
+
+.kana-romaji {
+    margin-top: 4px;
+    color: #667085;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.kana-pronunciation {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 25px 0;
+}
+
+.kana-pronunciation span {
+    color: #98a2b3;
+    font-size: 12px;
+}
+
+.kana-pronunciation strong {
+    color: #344054;
+    font-family: "Noto Sans JP", Arial, sans-serif;
+    font-size: 18px;
+}
+
+.kana-speak-button {
+    height: 43px;
+    padding: 0 17px;
+    border: none;
+    border-radius: 9px;
+    background: #19c7c1;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.kana-speak-button:hover {
+    background: #12aaa5;
+}
+
+.kana-tip {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 16px;
+    border-radius: 11px;
+    background: #f8fafc;
+    border: 1px solid #edf1f4;
+}
+
+.kana-tip span {
+    font-size: 16px;
+}
+
+.kana-tip p {
+    color: #667085;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.kana-navigation {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.kana-navigation button {
+    height: 44px;
+    padding: 0 18px;
+    border: 1px solid #dce5eb;
+    border-radius: 10px;
+    background: #ffffff;
+    color: #344054;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.kana-navigation button:hover:not(:disabled) {
+    border-color: #19c7c1;
+    color: #0da8a3;
+}
+
+.kana-navigation button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.kana-table-section {
+    margin-top: 30px;
+}
+
+.kana-section-header {
+    margin-bottom: 15px;
+}
+
+.kana-section-header h2 {
+    color: #172033;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.kana-section-header p {
+    color: #667085;
+    font-size: 12px;
+}
+
+.kana-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+}
+
+.kana-mini-card {
+    position: relative;
+    min-height: 130px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e4ebf0;
+    border-radius: 14px;
+    background: #ffffff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.kana-mini-card:hover {
+    transform: translateY(-2px);
+    border-color: #19c7c1;
+}
+
+.kana-mini-card.active {
+    background: #f0fbfa;
+    border-color: #19c7c1;
+}
+
+.kana-mini-character {
+    font-family: "Noto Sans JP", Arial, sans-serif;
+    font-size: 42px;
+    color: #172033;
+}
+
+.kana-mini-card strong {
+    margin-top: 5px;
+    color: #667085;
+    font-size: 12px;
+}
+
+.kana-mini-sound {
+    position: absolute;
+    right: 10px;
+    bottom: 9px;
+    font-size: 10px;
+    opacity: 0.6;
+}
+
+.kana-empty {
+    padding: 60px;
+    text-align: center;
+    background: #ffffff;
+    border: 1px solid #e7edf3;
+    border-radius: 18px;
+}
+
+.kana-empty h2 {
+    color: #172033;
+    margin-bottom: 8px;
+}
+
+.kana-empty p {
+    color: #667085;
+}
+
+@media (max-width: 900px) {
+
+    .kana-main {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .kana-character {
+        width: 190px;
+        height: 190px;
+        font-size: 115px;
+    }
+
+    .kana-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .kana-pronunciation {
+        justify-content: center;
+    }
+
+    .kana-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+
+    .kana-header {
+        align-items: flex-start;
+    }
+
+    .kana-total {
+        display: none;
+    }
+
+    .kana-toolbar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .kana-search {
+        max-width: none;
+    }
+
+    .kana-learning-card {
+        padding: 20px;
+    }
+
+    .kana-character {
+        width: 160px;
+        height: 160px;
+        font-size: 95px;
+    }
+
+    .kana-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .kana-navigation {
+        flex-direction: column;
+    }
+
+    .kana-navigation button {
+        width: 100%;
+    }
+}
