@@ -366,3 +366,4 @@ Dự án được cấp phép theo tiêu chuẩn **[MIT License](LICENSE)**. B�
 <div align="center">
   <sub>Xây dựng với ❤️ dành cho cộng đồng học tiếng Nhật. Chúc bạn sớm chinh phục JLPT! 🇯🇵 Ganbatte kudasai! (頑張ってください)</sub>
 </div>
+
